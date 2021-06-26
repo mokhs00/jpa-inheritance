@@ -6,7 +6,7 @@ import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
 @MappedSuperclass
-public class BaseTimeEntity {
+public abstract class BaseTimeEntity {
     private LocalDateTime createdDate;
     private LocalDateTime lastModifiedDate;
 }
